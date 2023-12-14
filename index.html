@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="refresh" content="3600">
+            <title>Application Météo</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--cette balise meta permet une affichage et ajuste la mise en page en fonction de la largeur de l'écran de l'appareil -->
+            <link href="style.css" rel="stylesheet" type="text/css"/>
+            
+    </head>
+    <body>
+        <header>
+             <div class="titre">
+            <p> Weather App</p>
+            </div>
+
+        <div class="Affichage">
+                
+               
+                    <div class="weatherDetails">
+                        <div class="weatherIcon">
+                            <img src="Images/sun.png" alt="Clouds" id="weatherIcon">
+                        </div>
+
+                    <div class="location">
+                        <input type="text" id="city" placeholder="Entrer le nom de la ville">
+                        <button onclick="getWeather()"> Afficher le temps
+                        </button>
+                    </div>
+
+                    <div class="weather-info" id="weather-info">
+                        <span></span>
+                    </div>
+                    
+                    <div class="windDetails">
+                        <div class="humidityBox" >
+                            <img src="Images/thermometer.png" >
+                            <div><p id="humidity"></p><span>Humidité</span></div>
+                            
+                        </div>
+
+                        <div class="windSpeed">
+                            <img src="Images/wind.png">
+                            <div><p id="windSpeed"></p><span>Force du vent</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+         <script src="meteo.js" ></script>
+    </body>
+</html>
