@@ -1,0 +1,85 @@
+body {
+  
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh; /*vh signifie hauteur de la fenêtre*/
+  align-items: center;
+  justify-content: center;
+  background-color:  #ffffff;
+}
+
+.titre{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-size: x-large;
+  text-align: center;
+}
+
+.Affichage {
+  width: 24rem;
+  height: 26rem;
+  border-width: 3px;
+  border-radius:  1rem;
+  background-color: #5d5fe7;
+  
+}
+
+
+
+.weatherIcon {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+}
+
+.weatherIcon img {
+  max-width: 100%;
+  width: 8rem;
+}
+
+
+.location {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  
+}
+
+.weather-info {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.windDetails {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  justify-content: space-around;
+}
+
+.windDetails .humidityBox {
+  display: flex;
+  font-size: 1rem;
+  color: #323232;
+}
+
+.windDetails .humidityBox img {
+  max-height: 3rem;
+  margin-right: 0.5rem;
+}
+
+.windDetails .windSpeed {
+  display: flex;
+  font-size: 1rem;
+  color: #323232;
+}
+
+.windDetails .windSpeed img {
+  max-height: 3rem;
+  margin-right: 0.5rem;
+}
